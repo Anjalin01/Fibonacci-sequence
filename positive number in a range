@@ -1,0 +1,13 @@
+num_list=list()
+n=int (input("enter the number of elements: "))
+
+for i in range(n):
+    print("enter element no.",i+1)
+    num=int (input())
+
+    if num>0:
+         num_list.append(num)
+    else: continue
+   
+print(num_list)
+
