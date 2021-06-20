@@ -1,0 +1,11 @@
+i=0
+j=1
+
+print(i)
+print(j) #to print the first two terms
+
+while (True):
+   k=i+j
+   i=j
+   j=k
+   print(k)  #to terminate press ctrl+c
